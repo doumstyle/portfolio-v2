@@ -10,28 +10,28 @@ export const Header = () => {
   return (
     <header className="sticky top-0 py-4">
       <Section className="flex items-baseline">
-        <h1 className="text-lg font-bold text-primary">
-          <Link href="https://doumstyle.github.io">doumstyle</Link>
+        <h1 className="text-2xl font-bold text-primary">
+          <Link href="https://doumstyle.github.io">Doumstyle</Link>
         </h1>
         <div className="flex-1" />
         <ul className="flex items-center gap-2">
           <Link
             href="https://github.com/doumstyle"
-            className={cn(buttonVariants({ variant: "outline" }), "size-6 p-0")}
+            className={cn(buttonVariants({ variant: "link" }), "size-6 p-0")}
           >
-            <GithubIcon size={16} className="text-foreground" />
+            <GithubIcon size={24} className="text-foreground" />
           </Link>
           <Link
             href="https://linkedin.com/in/mamadouamadou"
-            className={cn(buttonVariants({ variant: "outline" }), "size-6 p-0")}
+            className={cn(buttonVariants({ variant: "link" }), "size-6 p-0")}
           >
-            <LinkedinIcon size={16} className="text-foreground" />
+            <LinkedinIcon size={24} className="text-foreground" />
           </Link>
           <Link
             href="https://twitter.com/mamadouNgatt"
-            className={cn(buttonVariants({ variant: "outline" }), "size-6 p-0")}
+            className={cn(buttonVariants({ variant: "link" }), "size-6 p-0")}
           >
-            <TwitterIcon size={16} className="text-foreground" />
+            <TwitterIcon size={24} className="text-foreground" />
           </Link>
         </ul>
       </Section>
