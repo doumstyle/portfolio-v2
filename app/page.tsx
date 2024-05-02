@@ -9,7 +9,7 @@ export default function Home() {
       <Header />
       <Spacing size="md" />
       <Hero />
-      <Spacing />
+      <Spacing size="md" />
       <Status />
     </main>
   );
