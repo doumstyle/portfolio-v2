@@ -20,7 +20,7 @@ export const Contact = () => {
         />
         <ContactCard
           url="https://linkedin.com/in/mamadouamadou"
-          image="https://media.licdn.com/dms/image/D4E35AQFSSkcjU1mO6A/profile-framedphoto-shrink_200_200/0/1676637043260?e=1715281200&v=beta&t=z5GxzXltOG-fm-ePGzG62GmcpN1pfMyMGvljFc7n93g"
+          image="https://media.licdn.com/dms/image/D4E03AQG37SPLLJ8XOg/profile-displayphoto-shrink_200_200/0/1676637041426?e=1720051200&v=beta&t=XK7oVOQkkt83SyXT6vvacCunUZyxSfj4GKeKe3HojYE"
           name="Mamadou A."
           mediumImage="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogospng.org%2Fdownload%2Flinkedin%2Flogo-linkedin-icon-1536.png&f=1&nofb=1&ipt=b3056af33474d51db5e4201c586f3cf2cb53cc01c7475630ecd7148a1ccf0929&ipo=images"
           description="Let's Connect!"
