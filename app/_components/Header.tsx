@@ -8,8 +8,8 @@ import { TwitterIcon } from "./icons/TwitterIcon";
 
 export const Header = () => {
   return (
-    <header className="sticky top-0 py-4">
-      <Section className="flex items-baseline">
+    <header className="sticky top-0  bg-background/85 backdrop-blur border-b-primary border-b-2">
+      <Section className="py-4 flex items-baseline">
         <h1 className="text-2xl font-bold text-primary">
           <Link href="https://portfolio-v2-two-mu.vercel.app/">Mamadou</Link>
         </h1>
