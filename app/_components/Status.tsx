@@ -44,7 +44,7 @@ export const Status = () => {
           <p className="text-lg text-muted-foreground">Contact me</p>
           <ContactCard
             url="https://linkedin.com/in/mamadouamadou"
-            image="https://media.licdn.com/dms/image/D4E03AQG37SPLLJ8XOg/profile-displayphoto-shrink_200_200/0/1676637041426?e=1720051200&v=beta&t=XK7oVOQkkt83SyXT6vvacCunUZyxSfj4GKeKe3HojYE"
+            image="/portrait.jfif"
             name="Mamadou A."
             mediumImage="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogospng.org%2Fdownload%2Flinkedin%2Flogo-linkedin-icon-1536.png&f=1&nofb=1&ipt=b3056af33474d51db5e4201c586f3cf2cb53cc01c7475630ecd7148a1ccf0929&ipo=images"
             description="Let's Connect!"

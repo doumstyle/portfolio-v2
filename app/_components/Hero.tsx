@@ -14,26 +14,7 @@ export const Hero = () => {
         <h2 className="font-caption text-5xl font-bold">Mamadou AMADOU</h2>
         <h3 className="text-3xl font-caption">Software Developer</h3>
         <p className="text-base">
-          I love coding projects with{" "}
-          <Code>
-            <span>
-              <YoutubeIcon
-                size={16}
-                className="inline-flex items-center gap-1 mr-1"
-              />
-            </span>
-            Youtube
-          </Code>{" "}
-          creators to learn new concepts. Currently looking for new
-          opportunities. Based in{" "}
-          <Code>
-            <FrenchFlagIcon
-              size={16}
-              className="inline-flex items-center gap-1 mr-1"
-            />
-            France
-          </Code>
-          .
+          I love technology in general and Computer Science in particular. I always wanted to know how things work so from an early age, I tinkered with a lot of tech, ranging from smartphones to game consoles, all to way to laptops and desktops. So I started my professional journey as a IT Support Technician, then I trained in basic Web development and today I'm a Fullstack Developer. Specializing in Javascript technologies (MERN Stack).
         </p>
       </div>
       <div className="flex-[2] w-full max:md:m-auto ml-auto">
