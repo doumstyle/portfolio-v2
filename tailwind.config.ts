@@ -1,13 +1,11 @@
-import { FontFamilyIcon } from "@radix-ui/react-icons";
-import type { Config } from "tailwindcss";
+import type { Config } from "tailwindcss"
 
 const config = {
   darkMode: ["class"],
   content: [
-    "./pages/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
-    "./app/**/*.{ts,tsx}",
-  ],
+    'app/**/*.{ts,tsx}',
+    'components/**/*.{ts,tsx}',
+	],
   prefix: "",
   theme: {
     container: {
@@ -16,6 +14,10 @@ const config = {
       screens: {
         "2xl": "1400px",
       },
+    },
+    fontFamily: {
+      sans: ["var(--font-sans)"],
+      caption: ["var(--font-caption)"],
     },
     extend: {
       colors: {
@@ -58,11 +60,6 @@ const config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
-      fontFamily: {
-        sans: ["var(--font-geist-sans)"],
-        mono: ["var(--font-geist-mono)"],
-        caption: ["var(--font-caption)"],
-      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -80,6 +77,6 @@ const config = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-} satisfies Config;
+} satisfies Config
 
-export default config;
+export default config

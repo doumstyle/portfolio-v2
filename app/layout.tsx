@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Anek_Telugu } from "next/font/google";
+import { Titillium_Web } from "next/font/google";
 import "./globals.css";
-import { GeistSans } from "geist/font/sans";
-import { cn } from "@/lib/utils";
+import { cn } from "lib/utils";
 
-const AnekTelegu = Anek_Telugu({
+const TitilliumWeb = Titillium_Web({
+  weight: "400",
   subsets: ["latin"],
-  variable: "--font-caption",
-});
+  variable: "--font-caption"
+})
 
 export const metadata: Metadata = {
   title: "Mamadou AMADOU • Software Engineer",
@@ -24,9 +24,8 @@ export default function RootLayout({
     <html lang="en" className="h-full">
       <body
         className={cn(
-          GeistSans.variable,
-          AnekTelegu.variable,
-          "font-sans h-full bg-background text-foreground"
+          TitilliumWeb.variable,
+          "font-caption h-full bg-background text-foreground"
         )}
       >
         {children}
