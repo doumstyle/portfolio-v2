@@ -102,24 +102,21 @@ const SIDE_PROJECTS: SideProjectProps[] = [
 
 const WORKS: WorkProps[] = [
   {
-    image:
-      "https://media.licdn.com/dms/image/D4E0BAQHBuXTCD__FGA/company-logo_100_100/0/1690558903087/fleet_computer_logo?e=1721865600&v=beta&t=niEKPV3GgVdy-XVaHQCthJq8mdYjWuknajaKNFDVALs",
+    image: "/fleet_newLogo.png",
     title: "Fleet",
     role: "Web Developer",
     date: "2021 - 2022",
     url: "https://www.fleet.co",
   },
   {
-    image:
-      "https://media.licdn.com/dms/image/D4E0BAQEeQnntAFmQrA/company-logo_100_100/0/1705314256523/amexgbtneo_logo?e=1721865600&v=beta&t=aRB9_uvlW0wGsRzFOeHb2Lxqyq1rAOymfv-C6tjlZR8",
-    title: "KDS",
+    image: "/logo_AmexGBT.png",
+    title: "KDS now Amex GBT",
     role: "Software Engineer",
     date: "2020 - 2020",
     url: "https://www.amexglobalbusinesstravel.com/fr/",
   },
   {
-    image:
-      "https://media.licdn.com/dms/image/C4D0BAQHQBLt0D7Pa1g/company-logo_100_100/0/1630578274665/it_ce_informatique_et_technologies___caisse_depargne_logo?e=1721865600&v=beta&t=SY8S8uL5oVx9lCOo0P9jrTHkxT2aPndoVPgwfIDDwAY",
+    image: "/it_ce_logo.jpeg",
     title: "IT-CE",
     role: "Frontend Developer",
     date: "2018 - 2019",
@@ -127,8 +124,7 @@ const WORKS: WorkProps[] = [
     internship: true,
   },
   {
-    image:
-      "https://media.licdn.com/dms/image/D4E0BAQFSPsCKDQ-lvQ/company-logo_100_100/0/1697789289882/valtech_logo?e=1721865600&v=beta&t=kcMkw1HjmhAz79JTUCJF1a8U7rsQiYu8_mdeqEeZOtQ",
+    image: "/logo_Valtech.png",
     title: "Valtech",
     role: "IT Support Technician",
     date: "2014 - 2016",
