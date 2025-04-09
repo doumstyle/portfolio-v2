@@ -14,7 +14,7 @@ import { Work, WorkProps } from "./Work";
 export const Status = () => {
   return (
     <Section className="flex max-lg:flex-col items-start gap-4">
-      <div className="flex-[3] w-full">
+      <div className="flex-3 w-full">
         <Card className="w-full flex flex-col gap-2 p-4 mt-4">
           <p className="text-lg text-muted-foreground">Side, fun projects</p>
           <div className="flex flex-col gap-4">
@@ -30,7 +30,7 @@ export const Status = () => {
           </div>
         </Card>
       </div>
-      <div className="flex-[2] flex flex-col gap-4 w-full">
+      <div className="flex-2 flex flex-col gap-4 w-full">
         <Card className="w-full p-4 flex-1">
           <p className="text-lg text-muted-foreground">Work</p>
           <div className="flex flex-col gap-4">
