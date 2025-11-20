@@ -3,9 +3,9 @@ import { Section } from "./Section";
 import portrait from "../../public/portrait.png";
 import Image from "next/image";
 import { ComponentPropsWithoutRef } from "react";
-import { cn } from "lib/utils";
+import { cn } from "@lib/utils";
 import { Code } from "./Code";
-import { Button } from "components/ui/button";
+import { Button } from "@components/ui/button";
 import { ArrowRight } from "./icons/ArrowRight";
 import { downloadCV } from "./downloadCV";
 

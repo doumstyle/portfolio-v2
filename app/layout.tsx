@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { Titillium_Web } from "next/font/google";
 import "./globals.css";
-import { cn } from "lib/utils";
+import { cn } from "@lib/utils";
 
 const TitilliumWeb = Titillium_Web({
   weight: "400",
   subsets: ["latin"],
-  variable: "--font-caption"
-})
+  variable: "--font-caption",
+});
 
 export const metadata: Metadata = {
   title: "Mamadou AMADOU • Software Engineer",

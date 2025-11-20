@@ -1,5 +1,5 @@
 import { Section } from "./Section";
-import { Badge } from "components/ui/badge";
+import { Badge } from "@components/ui/badge";
 import { ReactLogo } from "./icons/ReactLogo";
 import { Code } from "./Code";
 import { TailwindLogo } from "./icons/TailwindLogo";
