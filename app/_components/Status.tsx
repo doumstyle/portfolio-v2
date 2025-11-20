@@ -1,7 +1,6 @@
 import { Card } from "components/ui/card";
 import { Section } from "./Section";
 import { HardHat, Languages, Shirt } from "lucide-react";
-import { ArrowUpRight } from "lucide-react";
 import { Project, ProjectProps } from "./Project";
 import { ContactCard } from "./ContactCard";
 import { Work, WorkProps } from "./Work";
@@ -34,19 +33,6 @@ export const Status = () => {
               <Work key={index} {...work} />
             ))}
           </div>
-        </Card>
-
-        <Card className="p-4 flex-1 flex flex-col gap-2">
-          <p className="text-lg text-muted-foreground">Contact me</p>
-          <ContactCard
-            url="https://linkedin.com/in/mamadouamadou"
-            image="/portrait.jfif"
-            name="Mamadou A."
-            mediumImage="/linkedin.png"
-            description="Let's Connect!"
-            width={60}
-            height={60}
-          />
         </Card>
       </div>
     </Section>

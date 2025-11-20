@@ -13,7 +13,7 @@ export const Contact = () => {
       <div className="flex max-md:flex-col gap-4 w-full">
         <ContactCard
           url="mailto:mamadou.amadou@ngatte.tech"
-          image="/portrait.jfif"
+          image="/portrait.png"
           name="Mamadou A."
           mediumImage="/email.svg"
           description="Email Me!"
@@ -22,7 +22,7 @@ export const Contact = () => {
         />
         <ContactCard
           url="https://linkedin.com/in/mamadouamadou"
-          image="/portrait.jfif"
+          image="/portrait.png"
           name="Mamadou A."
           mediumImage="/linkedin.png"
           description="Let's Connect!"
