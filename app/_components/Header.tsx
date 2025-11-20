@@ -4,7 +4,6 @@ import { GithubIcon } from "./icons/GithubIcon";
 import Link from "next/link";
 import { cn } from "lib/utils";
 import { LinkedinIcon } from "./icons/LinkeinIcon";
-import { TwitterIcon } from "./icons/TwitterIcon";
 
 export const Header = () => {
   return (
@@ -26,12 +25,6 @@ export const Header = () => {
             className={cn(buttonVariants({ variant: "link" }), "size-6 p-0")}
           >
             <LinkedinIcon size={24} className="text-foreground" />
-          </Link>
-          <Link
-            href="https://twitter.com/mamadouNgatt"
-            className={cn(buttonVariants({ variant: "link" }), "size-6 p-0")}
-          >
-            <TwitterIcon size={24} className="text-foreground" />
           </Link>
         </ul>
       </Section>

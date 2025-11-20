@@ -13,7 +13,8 @@ export const Work = (props: WorkProps) => {
   return (
     <Link
       href={props.url}
-      className="inline-flex items-center gap-3 hover:bg-accent/50 transition-colors p-1 rounded"
+      className="inline-flex items-center gap-3 hover:bg-accent/50 transition-colors px-2 py-1 rounded"
+      target="_blank"
     >
       <img
         className="h-10 w-10 object-contain rounded"

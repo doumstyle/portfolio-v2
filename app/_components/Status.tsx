@@ -1,13 +1,8 @@
 import { Card } from "components/ui/card";
 import { Section } from "./Section";
-import {
-  Film,
-  HandPlatter,
-  HomeIcon,
-  Joystick,
-  MessageSquareQuote,
-} from "lucide-react";
-import { Sideproject, SideProjectProps } from "./Sideproject";
+import { HardHat, Languages, Shirt } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
+import { Project, ProjectProps } from "./Project";
 import { ContactCard } from "./ContactCard";
 import { Work, WorkProps } from "./Work";
 
@@ -16,16 +11,17 @@ export const Status = () => {
     <Section className="flex max-lg:flex-col items-start gap-4">
       <div className="flex-3 w-full">
         <Card className="w-full flex flex-col gap-2 p-4 mt-4">
-          <p className="text-lg text-muted-foreground">Side, fun projects</p>
+          <p className="text-lg text-muted-foreground">Latest projects</p>
           <div className="flex flex-col gap-4">
-            {SIDE_PROJECTS.map((project, index) => (
-              <Sideproject
-                key={index}
-                Logo={project.Logo}
-                title={project.title}
-                description={project.description}
-                url="/"
-              />
+            {PROJECTS.map((project, index) => (
+              <div key={index} className="flex justify-between group">
+                <Project
+                  Logo={project.Logo}
+                  title={project.title}
+                  description={project.description}
+                  url={project.url}
+                />
+              </div>
             ))}
           </div>
         </Card>
@@ -49,58 +45,42 @@ export const Status = () => {
             mediumImage="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogospng.org%2Fdownload%2Flinkedin%2Flogo-linkedin-icon-1536.png&f=1&nofb=1&ipt=b3056af33474d51db5e4201c586f3cf2cb53cc01c7475630ecd7148a1ccf0929&ipo=images"
             description="Let's Connect!"
           />
-          <ContactCard
-            url="https://x.com/mamadoungatt"
-            image="https://pbs.twimg.com/profile_images/723450911373275136/Iv7kc6m-_400x400.jpg"
-            name="@MamadouNgatt"
-            mediumImage="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.punchng.com%2Fwp-content%2Fuploads%2F2023%2F07%2F24084806%2FTwitter-new-logo.jpeg&f=1&nofb=1&ipt=824bfde5b59be79d0da639b4f647bfb798770e0dc1611acaa23cbfdf73ada48c&ipo=images"
-            description="Follow Me!"
-          />
         </Card>
       </div>
     </Section>
   );
 };
 
-const SIDE_PROJECTS: SideProjectProps[] = [
+const PROJECTS: ProjectProps[] = [
   {
-    Logo: HandPlatter,
-    title: "Restaurants Rating",
-    description:
-      "Angular app using Google API to display on a map nearby restaurants with a rating system.",
-    url: "/",
+    Logo: Shirt,
+    title: "KentRow",
+    description: "Ecommerce website for selling clothes.",
+    url: "https://www.kentrow.com",
   },
   {
-    Logo: Joystick,
-    title: "Turn-based Game",
-    description:
-      "Javascript app to create a game where opponents fight each over on a board with obstacles and weapons.",
-    url: "/",
+    Logo: Languages,
+    title: "Ekkitugol",
+    description: "Languages learning app akin to Duolingo but for Pulaar",
+    url: "https://ekkitugol.ngatte.tech",
   },
   {
-    Logo: MessageSquareQuote,
-    title: "Quotes Generator",
+    Logo: HardHat,
+    title: "SD Consulting Europa",
     description:
-      "Javascript app to create a random generator of quotes from bits of sentences",
-    url: "/",
-  },
-  {
-    Logo: Film,
-    title: "Film Festival",
-    description:
-      "Wordpress to create a site to book tickets for a summer film festival in Paris parks",
-    url: "/",
-  },
-  {
-    Logo: HomeIcon,
-    title: "Chalets & Caviar",
-    description:
-      "Wordpress to create a site to rent/buy luxurious chalets in the French Alps city of Courchevel.",
-    url: "/",
+      "Health Safety and Environment (HSE) website for training employees and recruting people trained in HSE",
+    url: "https://www.sd-consulting.net",
   },
 ];
 
 const WORKS: WorkProps[] = [
+  {
+    image: "/10mw.jpg",
+    title: "10MentionWeb",
+    role: "Fullstack Developer",
+    date: "2024 - 2025",
+    url: "https://www.10mentionweb.org/",
+  },
   {
     image: "/fleet_newLogo.png",
     title: "Fleet",
@@ -128,7 +108,7 @@ const WORKS: WorkProps[] = [
     title: "Valtech",
     role: "IT Support Technician",
     date: "2014 - 2016",
-    url: "https://groupebpce.com/",
+    url: "https://valtech.com/",
     internship: true,
   },
 ];
