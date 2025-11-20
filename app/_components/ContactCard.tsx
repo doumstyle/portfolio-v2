@@ -1,5 +1,6 @@
 import { Card } from "components/ui/card";
 import { ArrowUpRight } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export const ContactCard = (props: {
@@ -8,19 +9,25 @@ export const ContactCard = (props: {
   name: string;
   description: string;
   url: string;
+  width: number;
+  height: number;
 }) => {
   return (
     <Link href={props.url} className="w-full">
       <Card className="p-3 bg-accent/10 flex items-center gap-4 hover:bg-accent/30 transition-colors group">
         <div className="relative">
-          <img
+          <Image
             src={props.image}
             alt={props.name}
+            width={props.width}
+            height={props.height}
             className="w-10 rounded-full"
           />
-          <img
+          <Image
             src={props.mediumImage}
             alt={props.name}
+            width={props.width}
+            height={props.height}
             className="w-4 h-4 absolute -bottom-2 -right-2 object-contain rounded-full"
           />
         </div>

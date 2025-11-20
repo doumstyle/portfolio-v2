@@ -42,8 +42,10 @@ export const Status = () => {
             url="https://linkedin.com/in/mamadouamadou"
             image="/portrait.jfif"
             name="Mamadou A."
-            mediumImage="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogospng.org%2Fdownload%2Flinkedin%2Flogo-linkedin-icon-1536.png&f=1&nofb=1&ipt=b3056af33474d51db5e4201c586f3cf2cb53cc01c7475630ecd7148a1ccf0929&ipo=images"
+            mediumImage="/linkedin.png"
             description="Let's Connect!"
+            width={60}
+            height={60}
           />
         </Card>
       </div>
@@ -80,6 +82,8 @@ const WORKS: WorkProps[] = [
     role: "Fullstack Developer",
     date: "2024 - 2025",
     url: "https://www.10mentionweb.org/",
+    width: 60,
+    height: 60,
   },
   {
     image: "/fleet_newLogo.png",
@@ -87,6 +91,8 @@ const WORKS: WorkProps[] = [
     role: "Web Developer",
     date: "2021 - 2022",
     url: "https://www.fleet.co",
+    width: 60,
+    height: 60,
   },
   {
     image: "/logo_AmexGBT.png",
@@ -94,6 +100,8 @@ const WORKS: WorkProps[] = [
     role: "Software Engineer",
     date: "2020 - 2020",
     url: "https://www.amexglobalbusinesstravel.com/fr/",
+    width: 60,
+    height: 60,
   },
   {
     image: "/it_ce_logo.jpeg",
@@ -101,6 +109,8 @@ const WORKS: WorkProps[] = [
     role: "Frontend Developer",
     date: "2018 - 2019",
     url: "https://groupebpce.com/",
+    width: 60,
+    height: 60,
     internship: true,
   },
   {
@@ -109,6 +119,8 @@ const WORKS: WorkProps[] = [
     role: "IT Support Technician",
     date: "2014 - 2016",
     url: "https://valtech.com/",
+    width: 60,
+    height: 60,
     internship: true,
   },
 ];

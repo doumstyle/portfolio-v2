@@ -1,4 +1,5 @@
 import { Badge } from "components/ui/badge";
+import Image from "next/image";
 import Link from "next/link";
 
 export type WorkProps = {
@@ -8,6 +9,8 @@ export type WorkProps = {
   date: string;
   url: string;
   internship?: boolean;
+  width: number;
+  height: number;
 };
 export const Work = (props: WorkProps) => {
   return (
@@ -16,10 +19,12 @@ export const Work = (props: WorkProps) => {
       className="inline-flex items-center gap-3 hover:bg-accent/50 transition-colors px-2 py-1 rounded"
       target="_blank"
     >
-      <img
+      <Image
         className="h-10 w-10 object-contain rounded"
         src={props.image}
         alt={props.title}
+        width={props.width}
+        height={props.height}
       />
       <div className="mr-auto">
         <div className="flex items-center gap-2">
